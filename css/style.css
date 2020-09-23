@@ -63,12 +63,12 @@ header .site-title {
 
 /* navigation menu */
 
-/* .navbar-nav {
+.navbar-nav {
   overflow: hidden;
   padding: 0.8em 0em;
 }
 
-.navbar-nav .nav-link {
+/* .navbar-nav .nav-link {
   font-size: 0.9em;
   color: rgb(128, 128, 128) !important;
   float: left;
@@ -88,7 +88,7 @@ header .site-title {
 
 .navbar-nav .icon{
   display: none;
-}
+} 
 
 .navbar-nav .basket-icon {
   margin-right: 6.5rem !important;
