@@ -63,10 +63,6 @@ header .site-title {
 
 /* navigation menu */
 
-.navbar-nav {
-  overflow: hidden;
-  padding: 0.8em 0em;
-}
 
 /* .navbar-nav .nav-link {
   font-size: 0.9em;
@@ -94,57 +90,10 @@ header .site-title {
   margin-right: 6.5rem !important;
 } */
 
-.nav-area {
-  background: #fff;
-}
-
-.nav-area:after{
-  content: '';
-  clear: both;
-  display: block;
-}
-
-.nav-area ul {
-  list-style: none;
-  margin: 0;
-}
-
-.nav-area > ul > li {
-  float: left;
-  position: relative;
-}
-
-.nav-area ul li a {
-  text-decoration: none;
-  padding: 15px 20px;
-  display: block;
-}
-
-.nav-area ul li:hover a {
-  background: #a8cbe7;
-}
-
-.nav-area ul ul {
-  position: absolute;
-  padding: 0;
-  min-width: 160px;
-  display: none;
-  top: 100%;
-  left: 0;
-}
-
-.nav-area ul li:hover > ul{
-  display: block;
-}
-
-.nav-area ul ul li:hover a{
-  background: rgb(255, 255, 255);
-}
 /* Slider one */
 
 .site-slider {
   position: relative;
-  z-index: -1;
 }
 
 .position-top {
@@ -152,7 +101,7 @@ header .site-title {
   top: 45%;
 }
 
-/* .site-slider .slider-btn .prev,
+.site-slider .slider-btn .prev,
 .site-slider .slider-btn .next {
   background-color: var(--bg-primary-color);
   padding: 1rem 1.5rem;
@@ -166,7 +115,7 @@ header .site-title {
 .site-slider:hover .slider-btn .prev,
 .site-slider:hover .slider-btn .next {
   opacity: 1;
-} */
+}
 
 .right-0 {
   right: 0;
