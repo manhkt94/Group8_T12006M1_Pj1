@@ -70,7 +70,7 @@ header .site-title {
 .navbar-nav .nav-link {
   font-size: 0.9em;
   float: left;
-  display: block;
+  /* display: block; */
   text-align: center;
   text-decoration: none;
 }
