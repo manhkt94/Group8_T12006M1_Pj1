@@ -100,7 +100,7 @@ header .site-title {
 
 .dropdown-menu a:hover {
   background-color: #ddd;
-  color: black;
+  color: #3366cc;
 }
 
 .dropdown:hover .dropdown-menu {
