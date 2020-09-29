@@ -194,7 +194,7 @@ header .site-title {
 }
 
 .site-btn.btn-span {
-  padding: 0.8rem 1.9rem;
+  padding: 8px 15px;
   border-radius: 4rem;
   border: 1px solid var(--border);
   background-color: white;
