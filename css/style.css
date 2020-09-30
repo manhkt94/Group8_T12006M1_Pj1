@@ -394,8 +394,7 @@ footer {
 
 /* Aboutus */
 .main {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;  
 }
 
 html {
@@ -407,18 +406,12 @@ html {
 }
 
 .column-about {  
-  float: left;
-  overflow: auto;
-  width: 32%;
-  margin-left: 9%;
-  margin-right: 8%;
-  margin-bottom: 10px;
-  padding: 8px 8px;
+  padding: 8px;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: auto;
+  margin: 15px;
 }
 
 .about-section {
