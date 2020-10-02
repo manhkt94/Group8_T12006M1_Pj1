@@ -1,24 +1,23 @@
-// First Slider
-$(".slider-one").not(".slick-intialized").slick({
-  autoplay: true,
-  autoplaySpeed: 3000,
-  dots: true,
-  prevArrow: ".site-slider .slider-btn .prev",
-  nextArrow: ".site-slider .slider-btn .next",
+$(function() {
+  $("#login-form-link").click(function (e) {
+    $("#login-form").delay(100).fadeIn(100);
+    $("#register-form").fadeOut(100);
+    $("#register-form-link").removeClass("active");
+    $(this).addClass("active");
+    e.preventDefault();
+  });
+  $("#register-form-link").click(function (e) {
+      $("#register-form").delay(100).fadeIn(100);
+      $("#login-form").fadeOut(100);
+      $("#login-form-link").removeClass("active");
+      $(this).addClass("active");
+      e.preventDefault();
+  });
 });
 
-// Second Slider
-$(".slider-two").not(".slick-intialized").slick({
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  prevArrow: ".site-slider-two .prev",
-  nextArrow: ".site-slider-two .next",
-});
 
 var shoppingCart = (function() {
-  // =============================
-  // Private methods and propeties
-  // =============================
+  
   cart = [];
   
   // Constructor
@@ -41,10 +40,6 @@ var shoppingCart = (function() {
     loadCart();
   }
   
-
-  // =============================
-  // Public methods and propeties
-  // =============================
   var obj = {};
   
   // Add to cart
