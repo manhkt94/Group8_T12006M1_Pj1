@@ -7,12 +7,10 @@
     <title>New Product | SIMPLON’s Beauty Care Centre | Cosmetics and accessories</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/product.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/92d9d22f8b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/92d9d22f8b.js"></script>
 </head>
 
 <body>
@@ -60,8 +58,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Product
+                        aria-haspopup="true" aria-expanded="false">Product
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="hair.html">Hair</a>
@@ -99,12 +96,11 @@
     <!-- Navbar -->
 
     <!-- Modal -->
-    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" style="font-family: Arial" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <h5 class="modal-title">Cart</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -115,8 +111,9 @@
                     </table>
                     <div>Total price: $<span class="total-cart"></span></div>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer">                    
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button class="clear-cart btn btn-danger">Clear Cart</button>
                     <button type="button" class="btn btn-primary">Order now</button>
                 </div>
             </div>
@@ -135,7 +132,7 @@
                                 class="fa fa-eye"></i></button>
                         <button type="button" class="btn btn-outline-light" title="Add to Wishlist"><i
                                 class="fa fa-heart-o"></i></button>
-                        <button type="button" class="btn btn-outline-light" title="Add to Cart"><i
+                        <button type="button" class="add-to-cart btn btn-outline-light" title="Add to Cart" data-name="VoceViva" data-price="130"><i
                                 class="fa fa-shopping-cart"></i></button>
                     </div>
                 </div>
@@ -153,13 +150,13 @@
 
             <div class="col-md-3">
                 <div class="product-top">
-                    <img src="images/product/upcoming/upcoming2.jpg" alt="COCO MADEMOISELLE L’EAU PRIVÉE Eau Pour la Nuit">
+                    <img src="images/product/upcoming/upcoming2.jpg" alt="Coco Mademoiselle L’eau Privée Eau Pour la Nuit">
                     <div class="overlay">
                         <button type="button" class="btn btn-outline-light" title="Quick Shop"><i
                                 class="fa fa-eye"></i></button>
                         <button type="button" class="btn btn-outline-light" title="Add to Wishlist"><i
                                 class="fa fa-heart-o"></i></button>
-                        <button type="button" class="btn btn-outline-light" title="Add to Cart"><i
+                        <button type="button" class="add-to-cart btn btn-outline-light" title="Add to Cart" data-name="CocoMademoiselle" data-price="125"><i
                                 class="fa fa-shopping-cart"></i></button>
                     </div>
                 </div>
@@ -170,7 +167,7 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                     <i class="fa fa-star-o"></i>
-                    <h3>COCO MADEMOISELLE L’EAU PRIVÉE Eau Pour la Nuit</h3>
+                    <h3>Coco Mademoiselle L’eau Privée Eau Pour la Nuit</h3>
                     <h5>$125</h5>
                 </div>
             </div>
@@ -182,7 +179,7 @@
                                 class="fa fa-eye"></i></button>
                         <button type="button" class="btn btn-outline-light" title="Add to Wishlist"><i
                                 class="fa fa-heart-o"></i></button>
-                        <button type="button" class="btn btn-outline-light" title="Add to Cart"><i
+                        <button type="button" class="add-to-cart btn btn-outline-light" title="Add to Cart" data-name="Donna" data-price="100"><i
                                 class="fa fa-shopping-cart"></i></button>
                     </div>
                 </div>
@@ -205,7 +202,7 @@
                                 class="fa fa-eye"></i></button>
                         <button type="button" class="btn btn-outline-light" title="Add to Wishlist"><i
                                 class="fa fa-heart-o"></i></button>
-                        <button type="button" class="btn btn-outline-light" title="Add to Cart"><i
+                        <button type="button" class="add-to-cart btn btn-outline-light" title="Add to Cart" data-name="OudWood" data-price="250"><i
                                 class="fa fa-shopping-cart"></i></button>
                     </div>
                 </div>
@@ -231,7 +228,7 @@
                                 class="fa fa-eye"></i></button>
                         <button type="button" class="btn btn-outline-light" title="Add to Wishlist"><i
                                 class="fa fa-heart-o"></i></button>
-                        <button type="button" class="btn btn-outline-light" title="Add to Cart"><i
+                        <button type="button" class="add-to-cart btn btn-outline-light" title="Add to Cart" data-name="BrightCrystal" data-price="95"><i
                                 class="fa fa-shopping-cart"></i></button>
                     </div>
                 </div>
@@ -254,7 +251,7 @@
                                 class="fa fa-eye"></i></button>
                         <button type="button" class="btn btn-outline-light" title="Add to Wishlist"><i
                                 class="fa fa-heart-o"></i></button>
-                        <button type="button" class="btn btn-outline-light" title="Add to Cart"><i
+                        <button type="button" class="add-to-cart btn btn-outline-light" title="Add to Cart" data-name="Flowerbomb" data-price="165"><i
                                 class="fa fa-shopping-cart"></i></button>
                     </div>
                 </div>
@@ -277,7 +274,7 @@
                                 class="fa fa-eye"></i></button>
                         <button type="button" class="btn btn-outline-light" title="Add to Wishlist"><i
                                 class="fa fa-heart-o"></i></button>
-                        <button type="button" class="btn btn-outline-light" title="Add to Cart"><i
+                        <button type="button" class="add-to-cart btn btn-outline-light" title="Add to Cart" data-name="MyWay" data-price="126"><i
                                 class="fa fa-shopping-cart"></i></button>
                     </div>
                 </div>
@@ -300,7 +297,7 @@
                                 class="fa fa-eye"></i></button>
                         <button type="button" class="btn btn-outline-light" title="Add to Wishlist"><i
                                 class="fa fa-heart-o"></i></button>
-                        <button type="button" class="btn btn-outline-light" title="Add to Cart"><i
+                        <button type="button" class="add-to-cart btn btn-outline-light" title="Add to Cart" data-name="Perfect" data-price="128"><i
                                 class="fa fa-shopping-cart"></i></button>
                     </div>
                 </div>
@@ -330,7 +327,7 @@
                         City<br>Viet Nam<br>
                         <b>Hotline</b>: <a href="tel:028 7300 8866">028 7300 8866</a><br>
                         <b>Email</b>: <a href="mailto:simplonsupporter@gmail.com">simplonsupporter@gmail.com</a>
-                    </p>                    
+                    </p>
                 </div>
 
                 <div class="col-xs-6 col-md-3">
@@ -381,16 +378,11 @@
     <!-- Footer -->
 
     <!-- Script -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/slide.js"></script>
     <script src="js/main.js"></script>
     <!-- Script -->
 </body>
